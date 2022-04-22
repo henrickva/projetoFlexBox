@@ -1,11 +1,17 @@
 .flex {
-    max-width: 300px;
-    padding: 10px;
-    border: 2px solid black;
+    margin: 0;
+    padding: 0;
     display: flex;
+    list-style: none;
 }
 
 .item {
-    background-color: aqua;
+    background: aqua;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
     margin: 5px;
 }
