@@ -14,8 +14,166 @@ ul li a {
     text-decoration: none;
 }
 
+ul li a:hover{
+    color: #3a6324;
+}
+
+div img {
+    display: block;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
 .flex-container {
     display: flex;
     max-width: 992px;
     margin: auto;
+    width: 100%;
 }
+
+header{
+    background-color: #008d8c;
+    color:white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.list-itens{
+    display: flex;
+    width: 100%;
+    max-width: 260px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header a {
+    color:white;
+}
+
+.menu {
+    justify-content: space-between;
+}
+
+.apresentacao {
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    min-height: 200px;
+    color: #008d8c;
+}
+.text p{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.text a {
+    background-color: #008d8c;
+    padding: 8px;
+    border: solid #c3d48b;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.text a:hover {
+    background-color:  #c3d48b;
+    border: solid #00807a;
+    color:#008d8c;
+}
+
+#quemsomos {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#quemsomos h2{
+    font-size: 32px;
+    color: #008d8c;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#quemsomos h2::before {
+    content: "";
+    height: 40px;
+    width: 5px;
+    margin-right: 5px;
+    background-color: #008d8c;
+    position: relative;
+}
+
+#quemsomos img {
+    min-width: 420px;
+    
+}
+
+.container-externo {
+    background-color: #008d8c;
+    color: white;
+    width: 100%;
+}
+
+#servicos {
+    flex-direction: column;
+    padding: 10px ;
+}
+
+#servicos p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #c3d48b;
+}
+
+#servicos a {
+    margin-top: 15px;
+    background-color: #008d8c;
+    padding: 8px;
+    border: solid #c3d48b;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+#servicos a:hover {
+    background-color:  #c3d48b;
+    border: solid #00807a;
+    color:#008d8c;
+}
+
+#servicos h2 {
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+.list-servicos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+.item {
+    text-align: center;
+    margin: 20px;
+}
+
+.item img {
+    width: 80%;
+    margin:auto;
+}
+
+#planos {
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.listas-planos {
+    display: flex;
+}
+
